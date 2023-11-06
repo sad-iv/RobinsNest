@@ -69,5 +69,5 @@ function showProfile($user)
         die(stripslashes($row['text']) . "<br style='clear:left;'><br>");
     }
 
-    echo "<p>Здесь пока не на что смотреть </p><br>";
+    echo "<p>Nothing to see here, yet </p><br>";
 }
