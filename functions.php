@@ -66,7 +66,7 @@ function showProfile($user)
 
     while ($row = $result->fetch())
     {
-        die(stripslashes($row['text']) . "<br style='clear:left;'><br>");
+        echo(stripslashes($row['text']) . "<br style='clear:left;'><br>");
     }
 
     echo "<p>Nothing to see here, yet </p><br>";
